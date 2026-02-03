@@ -3,7 +3,7 @@ import { company_logos } from '../assets/assets';
 
 const TrustedBy = () => {
   return (
-    <div className='flex flex=col items-center px-4 sm:px-12 lg:px-24 xl:px-40
+    <div className='flex flex-col items-center px-4 sm:px-12 lg:px-24 xl:px-40
     gap-10 text-gray-700 dark:text-white/80'>
       <h3 className='font-semibold'>Trusted by Leading Companies</h3>
 
