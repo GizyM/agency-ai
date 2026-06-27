@@ -1,5 +1,5 @@
 //eslint-disable-next-line no-unused-vars
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import React from 'react'
 import { company_logos } from '../assets/assets';
 
@@ -20,7 +20,7 @@ const TrustedBy = () => {
       className='font-semibold'>Trusted by Leading Companies</motion.h3>
 
       <motion.div 
-        initial={{ opacity: 0, y: 20 }}
+        initial="hidden"
         whileInView="visible"
         transition={{ staggerChildren: 0.1 }}
         viewport={{ once: true }}
